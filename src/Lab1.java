@@ -22,7 +22,7 @@ public class Lab1 {
         int my_list[] = new int[10];
 
         for (int i = 0; i < my_list.length; i++) {
-            my_list[i] = (int) (Math.random()*51+50);
+            my_list[i] = (int) (Math.random()*10);
         }
         for (int i = 0; i < my_list.length; i++) {
             System.out.println(my_list[i]);
