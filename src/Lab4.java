@@ -55,12 +55,5 @@ public class Lab4 {
 
         System.out.println(randomizeSelekt(my_ary, 0, my_ary.length-1, 3));
 
-        Lab3.randomizeQuickSort(my_ary,0,my_ary.length-1);
-
-        for (int i = 0; i < 5; i++) {
-
-            System.out.print(my_ary[i] + " ");
-        }
-
     }
 }
